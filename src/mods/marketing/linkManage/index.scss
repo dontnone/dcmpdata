@@ -1,0 +1,234 @@
+@import "../../../css/base";
+.echart-fund ,.echart-category {
+    float:left;
+    width:50%;
+}
+.echart-category{
+    width: 50%;
+    height: 300px;
+    position: relative;
+    p{
+        width: 100%;
+        text-align: center;
+        bottom: 63px;
+        position: absolute;
+    }
+}
+
+.echart-row {
+    min-width: 1100px;
+    height:380px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 10px;
+    margin-top: 15px;
+    position: relative;
+    .echart-roundgroup{
+        float: left;
+        width: 50%;
+        h3{
+            text-align: center;
+            font-size: 18px;
+        }
+    }
+    .title  {
+        padding:10px;
+        font:bold 18px/30px $xxd-font;
+        color:black;
+        border-bottom: 1px solid #f2f2f2;
+        margin-bottom: 20px;
+        i{
+            float: right;
+            margin-right: 20px;
+            margin-top: 5px;
+        }
+        &:after{
+            content: '';
+            display: block;
+            clear: both;
+        }
+    }
+}
+
+.table-wrap {
+    min-width: 1110px;
+    margin: 0 20px;
+    border-radius: 15px;
+    .title  {
+        padding:10px;
+        font:bold 25px/40px $xxd-font;
+        color:black;
+    }
+    .pagination {
+        text-align: right;
+        padding: 20px 5px 0 0;
+    }
+}
+.inputBox{
+    width: 70%;
+}
+.search-group{
+    box-shadow: 5px 10px 20px #f9fafa inset,0 2px 10px #f2f3f3;
+    -moz-box-shadow: 5px 10px 20px #f9fafa inset,0 2px 10px #f2f3f3;
+    -webkit-box-shadow: 5px 10px 20px #f9fafa inset,0 2px 10px #f2f3f3;
+    background: #fff;
+    padding:  15px 0 5px 30px;
+    .cell{
+        width: 20%;
+        margin-bottom: 10px;
+        button{
+            padding: 0 35px;
+        }
+    }
+    .btnBox{
+        width: 10%;
+    }
+    .long-cell {
+        width: 30%!important;
+        .ant-input{
+            width: 100%!important;
+        }
+    }
+}
+.ant-select{
+    width: 150px!important;
+}.table-wrap {
+     min-width: 1110px;
+     .title  {
+         padding:15px;
+         font:normal 16px/30px $xxd-font;
+         color:black;
+         border-bottom: 1px solid #e9e9e9;
+         margin-bottom: 30px;
+     }
+     .pagination {
+         text-align: right;
+         padding: 20px 5px 0 0;
+     }
+ }
+
+.search-group{
+    margin: 0 0 20px 0;
+}
+.cell{
+    padding: 20px 0 20px 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    background: #fff;
+}
+.ant-table{
+    table{
+        text-align: center;
+        border-top: 1px solid #e9e9e9;
+        border-left: 1px solid #e9e9e9;
+        td,th{
+            text-align: center;
+            padding: 0;
+            height: 40px;
+            line-height: 40px;
+            border-bottom: 1px solid #e9e9e9;
+            border-right: 1px solid #e9e9e9;
+        }
+        th{
+            background: #fff;
+        }
+    }
+}
+.table-wrap{
+    clear: both;
+    overflow: hidden;
+    background: #fff;
+
+    .pagination{
+        padding-bottom: 20px;
+        padding-right: 15px;
+    }
+}
+.ant-table-wrapper{
+    margin: 0 15px;
+}
+.ant-btn-primary,.ant-pagination-item-active {
+    background-color: #538ffe;
+    border-color: #538ffe;
+}
+.ant-btn-primary:hover,
+.ant-btn-primary:focus,
+.ant-pagination-item-active:hover,
+.ant-pagination-item-active:focus{
+    background-color: #6fa1fe;
+    border-color: #6fa1fe;
+}
+.ant-pagination-item:hover{
+    border-color: #538ffe;
+    color: #538ffe;
+}
+.ant-modal-footer{
+    padding: 10px 0 30px;
+    text-align: center;
+    button:nth-child(1){
+        display: none;
+    }
+    button:nth-child(2){
+        margin-left: 0;
+        padding: 0 80px;
+    }
+}
+.ant-modal-title{
+    text-align: center;
+    font-size: 16px;
+}
+.ant-modal-header{
+    padding: 30px 16px;
+    border-bottom: 0;
+}
+.ant-modal-footer{
+    border-top: 0;
+}
+.ant-input{
+    width: 60%;
+    text-align: left;
+}
+.input-wrap{
+    text-align: center;
+    font-size: 14px;
+}
+.ant-modal{
+    top: 200px;
+    width: 650px!important;
+    .ant-modal-body{
+        clear: both;
+        overflow: hidden;
+    }
+}
+.pop-wrap{
+    text-align: center;
+    clear: both;
+    overflow: hidden;
+    li{
+        width: 47%;
+        padding: 10px 0;
+        text-align: left;
+        float: left;
+        margin-left: 3%;
+        //margin-left: 70px;
+        span{
+            display: inline-block;
+            text-align: left;
+        }
+        .popTitle{
+            width: 80px;
+        }
+        .starIcon:before{
+            display: inline-block;
+            margin-right: 4px;
+            content: "*";
+            font-family: SimSun;
+            line-height: 1;
+            font-size: 12px;
+            color: #f04134;
+        }
+        .ant-select,.ant-input{
+            width: 200px!important;
+        }
+    }
+}
